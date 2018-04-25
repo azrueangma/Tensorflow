@@ -23,7 +23,6 @@ class simpleDNN(object):
     def __init__(self, sess):
         self.sess = sess
         
-        
     def build_net(self, input_dim, nclass):
         self.input_dim = input_dim
         self.nclass = nclass
