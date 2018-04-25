@@ -132,5 +132,3 @@ with tf.Session() as sess:
     gan = GAN(sess)
     gan.build_model(batch_size, z_dim)
     gan.train(total_epoch, 0.0001, "./Basic06_board")
-
-
