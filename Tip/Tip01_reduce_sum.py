@@ -1,4 +1,4 @@
-#reduce_mean
+#reduce_sum
 '''
 temp = self.Y_one_hot * tf.log(self.hypothesis)
 v = tf.reshape(temp,[1,-1])
